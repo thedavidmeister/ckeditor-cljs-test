@@ -35355,4 +35355,7 @@ goog.require("cljs.core");
 goog.define("process.env.NODE_ENV", "development");
 goog.provide("core.main");
 goog.require("cljs.core");
-document.write("\x3ch1\x3eHello Browser\x3c/h1\x3e");
+var el_11057 = document.createElement("div");
+var body_11058 = document.body;
+body_11058.appendChild(el_11057);
+BalloonEditor.create(el_11057);
